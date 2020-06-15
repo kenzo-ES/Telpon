@@ -49,12 +49,13 @@ subprocess.call("figlet SpamCall |lolcat",shell=True)
 banner = """
 \033[1;97m
 ==================================================
-Name  \033[1;91m:\033[1;96mRahasia Dong\033[1;97m
+Name  \033[1;91m:\033[1;92mRahasia Dong\033[1;97m
+
 Youtube  \033[1;91m:\033[1;92mES Pro Kontrak\033[1;97m
 ==================================================
 """
 print (banner)
-jm = int(input("\033[1;97m[\033[1;96mmasukan jumlah spam\033[1;97m]:\033[1;93m"))
+jm = int(input("\033[1;97m[\033[1;96ketik 1\033[1;97m]:\033[1;93m"))
 time.sleep(2)
 subprocess.call("nano call.py",shell=True)
 print ("\033[1;92mLoading\033[1;97m...")
